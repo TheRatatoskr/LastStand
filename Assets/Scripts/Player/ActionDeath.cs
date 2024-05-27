@@ -20,6 +20,8 @@ public class ActionDeath : MonoBehaviour
 
     private StageManager stageManager;
 
+    private bool isDead = false;
+
     private void Start()
     {
         stageManager = FindObjectOfType<StageManager>();
@@ -34,6 +36,9 @@ public class ActionDeath : MonoBehaviour
     }
     private void OnPlayerDeath()
     {
+        if (isDead) return;
+        isDead = true;
+
         animator.enabled = false;
         _collider.enabled = false;
 
@@ -51,12 +56,9 @@ public class ActionDeath : MonoBehaviour
             body.isKinematic = false;
         }
         
-
         audioSource.clip = deathSound;
         audioSource.Play();
 
         stageManager.StageWasFailed();
-
     }
-
 }

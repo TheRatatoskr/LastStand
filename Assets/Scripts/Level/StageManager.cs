@@ -50,7 +50,7 @@ public class StageManager : MonoBehaviour
             currentTimeSinceStart += Time.deltaTime;
             if (currentTimeSinceStart > stageTimeLimit)
             {
-                StageWasFailed();
+                TimerHasRanOut();
                 timerIsActive = false;
             }
         }
@@ -59,11 +59,12 @@ public class StageManager : MonoBehaviour
     //called when timer runs out. default is fail teh stage
     public virtual void TimerHasRanOut()
     {
+        Debug.Log("stage was failed");
         StageWasFailed();
     }
 
     //this is called from player when we die
-    public void StageWasFailed()
+    public virtual void StageWasFailed()
     {
         ActivateSlowZoomCam();
 
