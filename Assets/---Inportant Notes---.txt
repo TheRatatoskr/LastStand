@@ -1,3 +1,0 @@
-Github's Unity ignore file does not capture the input systems fix for the broken menus in the input system.
-Use this guide to fix it. 
-https://medium.com/@joseph.ewert/unity-input-system-display-bug-dc054d8c4623
