@@ -1,0 +1,4 @@
+mtl Material::painel
+shader legacy_tex
+depthwrite false
+blend add

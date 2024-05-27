@@ -1,0 +1,4 @@
+mtl Material::vidro
+shader legacy_tex
+depthwrite false
+blend add
