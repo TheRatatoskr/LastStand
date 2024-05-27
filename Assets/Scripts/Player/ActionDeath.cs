@@ -52,6 +52,7 @@ public class ActionDeath : MonoBehaviour
         foreach (Collider col in ragdollColliders)
         { 
             col.enabled = true; 
+
         }
 
         foreach (Rigidbody body in ragdollBody)

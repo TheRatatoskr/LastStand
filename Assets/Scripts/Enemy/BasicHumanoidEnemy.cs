@@ -22,15 +22,32 @@ public class BasicHumanoidEnemy : BasicEnemy
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private Animator anim;
 
+    [Header("Debug Only")]
+    [SerializeField] private bool isWalkingLeft = true;
+
     private bool isAlive = true;
 
     private void Update()
     {
-
+        if(isAlive)
+        {
             HandlePacing();
-        
-        
-        //if (transform.position.y < 0) transform.position = new Vector3(transform.position.x,0,0);
+            PositionValidationChecks();
+        }
+    }
+
+    private void PositionValidationChecks()
+    {
+        transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+
+        if (isWalkingLeft)
+        {
+            transform.eulerAngles = new Vector3(0, 270f, 0);
+        }
+        else
+        {
+            transform.eulerAngles = new Vector3(0, 90f, 0);
+        }
     }
 
     private void HandlePacing()
@@ -39,18 +56,19 @@ public class BasicHumanoidEnemy : BasicEnemy
 
         if(transform.position.x <= leftWaypoint.position.x)
         {
-            transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + -90f, 0);
+            isWalkingLeft = false;
         }
 
         if (transform.position.x >= rightWaypoint.position.x)
         {
-            transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 90f, 0);
+            isWalkingLeft = true;
         }
 
     }
     public override void EnemyDeath()
     {
         base.EnemyDeath();
+        isAlive = false;
         moveSpeed = 0;
         anim.enabled = false;
         foreach(Collider collider in ragdollColliders)
@@ -60,8 +78,6 @@ public class BasicHumanoidEnemy : BasicEnemy
         foreach (Rigidbody body in ragdollBodies)
         {
             body.isKinematic = false;
-            //body.AddForce(-Vector3.forward * backForceOnDeath + Vector3.up * upForceOnDeath);
         }
-        //_rigidbody.AddForce(-Vector3.forward * backForceOnDeath + Vector3.up * upForceOnDeath);
     }
 }

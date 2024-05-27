@@ -12,10 +12,12 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private int startingLifeCounter = 50;
 
-    private int currentScore;
-    private int highScore;
+    [Header("DebugOnly")]
 
-    private int currentLives = 5;
+    [SerializeField] private int currentScore;
+    [SerializeField] private int highScore;
+
+    [SerializeField] private int currentLives = 5;
 
     #region Singleton
     public static GameManager instance = null;

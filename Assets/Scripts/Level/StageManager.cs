@@ -21,9 +21,13 @@ public class StageManager : MonoBehaviour
     [Header("Stage Manager Required Objects")]
     [SerializeField] private GameObject player;
     [SerializeField] private CinemachineVirtualCamera dramaticZoomCam;
+
+    [SerializeField] private GameObject gameManagerPrefab;
+
     private TimelineController timelineController;
 
     [Header("Stage Manager Debug Only")]
+    [SerializeField] private GameObject createdGameManager;
     [SerializeField] private GameManager gameManager;
 
 
@@ -33,6 +37,8 @@ public class StageManager : MonoBehaviour
         gameManager = FindObjectOfType<GameManager>();
         if (gameManager == null)
         {
+            createdGameManager = Instantiate(gameManagerPrefab);
+            gameManager = createdGameManager.GetComponent<GameManager>();
             Debug.LogWarning("AHHHHH SCREAM IN TERROR THE GAME MANAGER IS MISSING!");
         }
 
@@ -40,7 +46,6 @@ public class StageManager : MonoBehaviour
         {
             timerIsActive = true;
         }
-
     }
 
     private void Update()
@@ -107,6 +112,7 @@ public class StageManager : MonoBehaviour
 
     public void CompletedStageTimelineIsDone()
     {
+        Debug.Log("time line has called finished. game manager should update score");
         //stage manager will perform any cleanup that needs to happen and tell game manager its done 
         gameManager.StageWasCleared();
     }
