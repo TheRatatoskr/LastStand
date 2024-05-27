@@ -10,7 +10,9 @@ public class ActionDeath : MonoBehaviour
     [SerializeField] private List<Collider> ragdollColliders;
 
     [Header("Components")]
-    [SerializeField] private Collider _collider;
+    [SerializeField] private Collider groundCollider;
+    [SerializeField] private Collider airCollider;
+
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private Animator animator;
 
@@ -40,7 +42,8 @@ public class ActionDeath : MonoBehaviour
         isDead = true;
 
         animator.enabled = false;
-        _collider.enabled = false;
+        groundCollider.enabled = false;
+        airCollider.enabled = false;
 
         actionMovement.PlayerIsDead();
         actionAttack.PlayerIsDead();

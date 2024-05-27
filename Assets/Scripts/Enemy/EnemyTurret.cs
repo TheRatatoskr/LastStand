@@ -3,10 +3,6 @@ using UnityEngine.InputSystem.LowLevel;
 
 public class EnemyTurret : MonoBehaviour
 {
-    [Header("Transforms")]
-    [SerializeField] private Transform rotateHinge;
-    [SerializeField] private Transform player;
-
     [Header("Laser Settings")]
     [SerializeField] private GameObject laserBox;
     [SerializeField] private AudioSource audioSource;
@@ -20,15 +16,11 @@ public class EnemyTurret : MonoBehaviour
     [SerializeField] private float fireDelay;
     [SerializeField] private float fireLength;
     [SerializeField] private float fireCooldown;
-
-    [Header("Debug Only")]
-    [SerializeField] private float valueImWatching;
     
     private float currentAlarm;
     private float currentTimer;
     private int gunState = 0;
     private int totalGunStates = 4;
-    private bool canRotate = true;
 
     private void Start()
     {
@@ -36,21 +28,11 @@ public class EnemyTurret : MonoBehaviour
         UpdateSound(chargeSound);
     }
 
-    //rotate around the hinge
-    private void RotateAroundHinge()
-    {
-        if(canRotate)
-        {
-            transform.LookAt(player.position);
-        }
-    }
-
     //follow the barrel to the player
 
     private void Update()
     {
         LaserTimerLogic();
-        RotateAroundHinge();
     }
 
     private void UpdateSound(AudioClip clip)
@@ -75,12 +57,10 @@ public class EnemyTurret : MonoBehaviour
                 case 0:
                     currentTimer = 0;
                     currentAlarm = chargeTime;
-                    canRotate = true;
                     UpdateSound(chargeSound);
                     break;
                 case 1:
                     currentAlarm += fireDelay;
-                    canRotate = false;
                     audioSource.pitch += chargeFirePitchIncrease;
                     break;
                 case 2:
