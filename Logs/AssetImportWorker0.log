@@ -1,0 +1,626 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.30f1 (70558241b701) revision 7361922'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 130920 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jewer/Repose/GameJams/LastStand/LastStandURPConversion/LastStandURPConversion
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59230
+Successfully changed project path to: C:/Users/jewer/Repose/GameJams/LastStand/LastStandURPConversion/LastStandURPConversion
+C:/Users/jewer/Repose/GameJams/LastStand/LastStandURPConversion/LastStandURPConversion
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [43484] Host "[IP] 10.0.0.71 [Port] 0 [Flags] 2 [Guid] 2929524853 [EditorId] 2929524853 [Version] 1048832 [Id] WindowsEditor(7,Nezuko) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [43484] Host "[IP] 10.0.0.71 [Port] 0 [Flags] 2 [Guid] 2929524853 [EditorId] 2929524853 [Version] 1048832 [Id] WindowsEditor(7,Nezuko) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 9.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.30f1 (70558241b701)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jewer/Repose/GameJams/LastStand/LastStandURPConversion/LastStandURPConversion/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16337 MB
+    Driver:   31.0.22011.4008
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.009849 seconds.
+- Loaded All Assemblies, in  0.440 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 236 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.546 seconds
+Domain Reload Profiling: 985ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (154ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (156ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (546ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (497ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (355ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.748 seconds
+Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.690 seconds
+Domain Reload Profiling: 1434ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (556ms)
+		LoadAssemblies (400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (176ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (690ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (549ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5552 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (419.7 KB). Loaded Objects now: 6012.
+Memory consumption went from 225.4 MB to 225.0 MB.
+Total: 4.153100 ms (FindLiveObjects: 0.658400 ms CreateObjectMapping: 0.294800 ms MarkObjects: 3.018100 ms  DeleteObjects: 0.180700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 180844.335386 seconds.
+  path: Assets/Scenes/Levels/ClearoutRoomEasy1.unity
+  artifactKey: Guid(89c9d8cab53605b41bd2b4ebf83b06b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/ClearoutRoomEasy1.unity using Guid(89c9d8cab53605b41bd2b4ebf83b06b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3740b24ac6553f8c5f4279d3da751d') in 0.001679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.443588 seconds.
+  path: Assets/Scenes/Levels/ClearoutRoomEasy1
+  artifactKey: Guid(b60ced6a1cacb814ba3de0b69943630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/ClearoutRoomEasy1 using Guid(b60ced6a1cacb814ba3de0b69943630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371dcfb79826abafeffd677ebe85aca6') in 0.000597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 201.424919 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5280ad91af67e2a353905758f96678') in 0.000369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 541.323169 seconds.
+  path: Assets/Models/Sci-fi Pack
+  artifactKey: Guid(8bff4e8065dd5aa40a04bc6b5be9f34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack using Guid(8bff4e8065dd5aa40a04bc6b5be9f34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c851010aef111cc5f03ac4fd507fee5') in 0.000828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.158842 seconds.
+  path: Assets/Models/Sci-fi Pack/map/SCI6
+  artifactKey: Guid(2764eb1fad0d574428b3b04389d1813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/map/SCI6 using Guid(2764eb1fad0d574428b3b04389d1813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432459d35cd07de26c77c138a3c6f20c') in 0.000671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.767074 seconds.
+  path: Assets/Models/Sci-fi Pack/map/SCI6/escada-1.png.thumb.bmp
+  artifactKey: Guid(c6234ccc507eba942a742e0b7c560cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/map/SCI6/escada-1.png.thumb.bmp using Guid(c6234ccc507eba942a742e0b7c560cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207706cef6dd1f258a6b7e011c645805') in 0.065606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.555510 seconds.
+  path: Assets/Models/Sci-fi Pack/map/SCI6/escada-1.png
+  artifactKey: Guid(d1e45a1d3f17c8b47a07f90c3f70a24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/map/SCI6/escada-1.png using Guid(d1e45a1d3f17c8b47a07f90c3f70a24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6e7201cb3ece5cad0273c4d62a4323') in 0.017489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.480852 seconds.
+  path: Assets/Models/Sci-fi Pack/map/SCI6/escada-2.png.thumb.bmp
+  artifactKey: Guid(f042eac64778b4841983d7c0575ca50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/map/SCI6/escada-2.png.thumb.bmp using Guid(f042eac64778b4841983d7c0575ca50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a1ef3263d070d3d37ba19209f19ec9') in 0.013123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.453069 seconds.
+  path: Assets/Models/Sci-fi Pack/map/SCI6/escada-4.png
+  artifactKey: Guid(90dece523bbddd647b0968e010ea874c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/map/SCI6/escada-4.png using Guid(90dece523bbddd647b0968e010ea874c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800ad7d2a8cce0f23f4f8cd076ba5db2') in 0.012378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.737596 seconds.
+  path: Assets/Models/Sci-fi Pack/map/SCI5/chao1.png.thumb.bmp
+  artifactKey: Guid(c54770e817dc0df459e9a1adcff14b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/map/SCI5/chao1.png.thumb.bmp using Guid(c54770e817dc0df459e9a1adcff14b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2be268844d3ba728caed6a909478d6') in 0.013341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.333727 seconds.
+  path: Assets/Models/Sci-fi Pack/map/SCI5/chao2.png
+  artifactKey: Guid(dfeb246577142254b8ccd655cd31991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/map/SCI5/chao2.png using Guid(dfeb246577142254b8ccd655cd31991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db965932766fbc6780197146ed47afd') in 0.014124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.598630 seconds.
+  path: Assets/Models/Sci-fi Pack/map/SCI5/chao2.png.thumb.bmp
+  artifactKey: Guid(25756bea77619d3458547b463f295bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/map/SCI5/chao2.png.thumb.bmp using Guid(25756bea77619d3458547b463f295bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7f04b21f00ba87aeb8542abce6fb64') in 0.011838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.482442 seconds.
+  path: Assets/Models/Sci-fi Pack/map/SCI5/chao4.png
+  artifactKey: Guid(617f7af9774391440816ad5704dc240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/map/SCI5/chao4.png using Guid(617f7af9774391440816ad5704dc240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294328c830d1f43f602b64131cf2abd1') in 0.012294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.276648 seconds.
+  path: Assets/Models/Sci-fi Pack/map/SCI5/chao3.png.thumb.bmp
+  artifactKey: Guid(b462b539d45ef2745be356154f19be4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/map/SCI5/chao3.png.thumb.bmp using Guid(b462b539d45ef2745be356154f19be4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85de76c13d3276ddc3d39696957202e3') in 0.012733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.307592 seconds.
+  path: Assets/Models/Sci-fi Pack/map/SCI5/chao3.png
+  artifactKey: Guid(1786a42e6d4d5e34fbb8ff0fe12b1c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/map/SCI5/chao3.png using Guid(1786a42e6d4d5e34fbb8ff0fe12b1c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b0efb31a3d028c5f2f4fb6480cb6bb') in 0.013561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.463148 seconds.
+  path: Assets/Models/Sci-fi Pack/map/SCI5/chao4.png.thumb.bmp
+  artifactKey: Guid(41d22c76fac55954fac7a56481fb263b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/map/SCI5/chao4.png.thumb.bmp using Guid(41d22c76fac55954fac7a56481fb263b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2451d0c83ffbc3966ac50090b3667af7') in 0.012051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.211065 seconds.
+  path: Assets/Models/Sci-fi Pack/map/SCI5
+  artifactKey: Guid(f375d9e7fa1864640ac7529a20532851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/map/SCI5 using Guid(f375d9e7fa1864640ac7529a20532851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29344ac140cf1e0823cbe74c83657113') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.425024 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/caixas-deforca-1.fbx.thumb.bmp
+  artifactKey: Guid(03c86cf98a3b9d849827ceffe73e2ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/caixas-deforca-1.fbx.thumb.bmp using Guid(03c86cf98a3b9d849827ceffe73e2ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e3243bdae3c88d777a0686da709d2d') in 0.014379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.832497 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/casa-01-sciRETEX.fbx.thumb.bmp
+  artifactKey: Guid(64d33b2e306d1f648bc27c1e9742a3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/casa-01-sciRETEX.fbx.thumb.bmp using Guid(64d33b2e306d1f648bc27c1e9742a3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45e5fe3e0ecb9fca1d780bf861d600b') in 0.017557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.339508 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/casa-01-sciRETEX.fbx
+  artifactKey: Guid(8164bfd6a665b194397356b71b9f28ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/casa-01-sciRETEX.fbx using Guid(8164bfd6a665b194397356b71b9f28ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80619ed75fc47d0b232c416fe67266b6') in 0.892578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 25.128318 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/container2.fbx.thumb.bmp
+  artifactKey: Guid(bb5608efcce1a1e4f9e05a7f126b08c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/container2.fbx.thumb.bmp using Guid(bb5608efcce1a1e4f9e05a7f126b08c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f0c38b06f56ada5e7f25ee0cf297d4') in 0.014615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.300780 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/controleestufa.fbx.thumb.bmp
+  artifactKey: Guid(cf70be786ead48c4e8c977fc3c67e9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/controleestufa.fbx.thumb.bmp using Guid(cf70be786ead48c4e8c977fc3c67e9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce91e79d55470db16ae689b6597f74d8') in 0.016108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.649512 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/energiasolar.fbx.thumb.bmp
+  artifactKey: Guid(162cf8f36ab7af644a27cfb9c960f2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/energiasolar.fbx.thumb.bmp using Guid(162cf8f36ab7af644a27cfb9c960f2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06e374894e6924b4316670edbd9cb7b') in 0.011449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.977179 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/esfera1-reator.fbx.thumb.bmp
+  artifactKey: Guid(3b7dfe400d381464f87be5192f7f13e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/esfera1-reator.fbx.thumb.bmp using Guid(3b7dfe400d381464f87be5192f7f13e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8221c84d81877fc9308f358db447b103') in 0.013502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.181406 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/esfera2-reator.fbx.thumb.bmp
+  artifactKey: Guid(7136766a87d0e754d90df408ffc79340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/esfera2-reator.fbx.thumb.bmp using Guid(7136766a87d0e754d90df408ffc79340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64eb131755c85c7acfeaf8489becf7b2') in 0.015574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.507634 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/estufa.fbx.thumb.bmp
+  artifactKey: Guid(3793a3c11fd910a4cbf6b653b85a18a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/estufa.fbx.thumb.bmp using Guid(3793a3c11fd910a4cbf6b653b85a18a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3155d913d7725dd2bf8e31287ef14194') in 0.013618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.705304 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/geradordeenergia.fbx.thumb.bmp
+  artifactKey: Guid(7724977ab03b01d459e1f6c2b097ed04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/geradordeenergia.fbx.thumb.bmp using Guid(7724977ab03b01d459e1f6c2b097ed04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d3d4d88ff519041012dc7292c4032d') in 0.014731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.463517 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/muro-torre1.fbx
+  artifactKey: Guid(ef3b5c5f7de8236458116a27a3cf445a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/muro-torre1.fbx using Guid(ef3b5c5f7de8236458116a27a3cf445a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11569ba02aa40ee340885db7d7ec5a10') in 0.041925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.371059 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/laboratorioRETEX.fbx.thumb.bmp
+  artifactKey: Guid(1fa55457291755d41977977bcc32de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/laboratorioRETEX.fbx.thumb.bmp using Guid(1fa55457291755d41977977bcc32de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3c0eed8c49cfadc24f91208fc1fa6e') in 0.011991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.941817 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/muro-torre1.fbx.thumb.bmp
+  artifactKey: Guid(8c046f0311cc99049906b304ae35b470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/muro-torre1.fbx.thumb.bmp using Guid(8c046f0311cc99049906b304ae35b470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223747220fd948b8debe947c680703fa') in 0.014662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 111.203378 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/esfera2-reator.fbx
+  artifactKey: Guid(d6a509b0cbc879c46b46649642ec9bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/esfera2-reator.fbx using Guid(d6a509b0cbc879c46b46649642ec9bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb36494565fff38a7255ccdd37589a84') in 0.028837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 9.766401 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/porta-automatica.fbx.thumb.bmp
+  artifactKey: Guid(2e55eb7ecc9798741846b9ecf9ea3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/porta-automatica.fbx.thumb.bmp using Guid(2e55eb7ecc9798741846b9ecf9ea3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28eb54dd33a96f6b7a372119406960af') in 0.014505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.682170 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/portaGanimada.fbx.thumb.bmp
+  artifactKey: Guid(8697e34d0a618524ea7ac4f8aec9c236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/portaGanimada.fbx.thumb.bmp using Guid(8697e34d0a618524ea7ac4f8aec9c236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883d6e5f4bea21fee87371fe3ef4cfd2') in 0.015551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.951027 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/predioredondo.fbx.thumb.bmp
+  artifactKey: Guid(6106899775883fb4e9f3db1bd73e4431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/predioredondo.fbx.thumb.bmp using Guid(6106899775883fb4e9f3db1bd73e4431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9d16dc29a92c7cb2bf5ddae5cd5739') in 0.011975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.463311 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/predioredondo2.fbx.thumb.bmp
+  artifactKey: Guid(742e060a986978843baabee8815a88f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/predioredondo2.fbx.thumb.bmp using Guid(742e060a986978843baabee8815a88f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5584d2f97ab730d553372ed19c503126') in 0.015728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.346866 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/redonda1.fbx.thumb.bmp
+  artifactKey: Guid(ac170a36a1ada1d4bb9f614ea81fd7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/redonda1.fbx.thumb.bmp using Guid(ac170a36a1ada1d4bb9f614ea81fd7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f90e62dbdc7fcf8f8672226b256d8a') in 0.012069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.953007 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/reator.fbx.thumb.bmp
+  artifactKey: Guid(65b95e8f6f1e7df459a782d34a57ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/reator.fbx.thumb.bmp using Guid(65b95e8f6f1e7df459a782d34a57ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f132dbe6d5f5f746163c5b93561f6e60') in 0.013253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.202630 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/redondalimpa.fbx.thumb.bmp
+  artifactKey: Guid(015e257e4ea93094ba5216b71ad91807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/redondalimpa.fbx.thumb.bmp using Guid(015e257e4ea93094ba5216b71ad91807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6119fd6242f5339d4e5cd1a7cd9eb5b6') in 0.014492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.787072 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/redondalab.fbx.thumb.bmp
+  artifactKey: Guid(da9f29b85a3989944b1211e33e2319bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/redondalab.fbx.thumb.bmp using Guid(da9f29b85a3989944b1211e33e2319bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c61d19a289323af4eb770034a5790d') in 0.013428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.624785 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/torremuro.fbx.thumb.bmp
+  artifactKey: Guid(e27d1877b3f58d7459bfb4a5e1b60852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/torremuro.fbx.thumb.bmp using Guid(e27d1877b3f58d7459bfb4a5e1b60852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81ab740590ead18c507f64057b815ce') in 0.019292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.648611 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/torreta1.fbx.thumb.bmp
+  artifactKey: Guid(6ddd19fd11e317846a1987702486783d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/torreta1.fbx.thumb.bmp using Guid(6ddd19fd11e317846a1987702486783d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205bd6dadb9e263b0bcb2f2d1cb7740e') in 0.014404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.336813 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI1/torreta2.fbx.thumb.bmp
+  artifactKey: Guid(de72171754e38ac4eb6c55388d438050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI1/torreta2.fbx.thumb.bmp using Guid(de72171754e38ac4eb6c55388d438050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96018f52b310cefcf9beba566918c73') in 0.012950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.542202 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI2
+  artifactKey: Guid(48b57cc1cf5f4694f874bf4f3d3ca101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI2 using Guid(48b57cc1cf5f4694f874bf4f3d3ca101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42aa0507cd194c7e50bec04b6f143d11') in 0.000672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.408003 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI2/armario-interno-1.fbx.thumb.bmp
+  artifactKey: Guid(3da638bde7cba594f8d5de1785927500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI2/armario-interno-1.fbx.thumb.bmp using Guid(3da638bde7cba594f8d5de1785927500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c518f2449bbed145fbff4ef9e4ba4fb') in 0.013815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.487857 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI2/armario-interno-3.fbx.thumb.bmp
+  artifactKey: Guid(64c58a418e22d394f9ad8fe53f56e12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI2/armario-interno-3.fbx.thumb.bmp using Guid(64c58a418e22d394f9ad8fe53f56e12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9479bbfc7099406194552cd165d3c9') in 0.012630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.936058 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI2/armario-interno-2.fbx.thumb.bmp
+  artifactKey: Guid(100c5f505902d7d4e844a17208588e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI2/armario-interno-2.fbx.thumb.bmp using Guid(100c5f505902d7d4e844a17208588e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f026e0645ab552535b22324c67d811') in 0.012997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.307428 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI2/armario-interno-G1.fbx.thumb.bmp
+  artifactKey: Guid(8c31d2408c9a7134ea4583cc41feef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI2/armario-interno-G1.fbx.thumb.bmp using Guid(8c31d2408c9a7134ea4583cc41feef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240f54f8d026d23452edcae45034b0d4') in 0.013741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.530926 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI2/armario-interno-G2.fbx.thumb.bmp
+  artifactKey: Guid(3deefa84111b79c449c7dc7398182412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI2/armario-interno-G2.fbx.thumb.bmp using Guid(3deefa84111b79c449c7dc7398182412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ea88624d12de3982bf2f0078d3d165') in 0.013720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.163005 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI2/computador-interno1.fbx.thumb.bmp
+  artifactKey: Guid(48d7943b3fab9704882fc9ef0c9280e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI2/computador-interno1.fbx.thumb.bmp using Guid(48d7943b3fab9704882fc9ef0c9280e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fff218532cbc2fb0f93937968b9969') in 0.014179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.593227 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI2/computador-interno2.fbx.thumb.bmp
+  artifactKey: Guid(b2fcef94c0ba2a940bfa1ef2a61b7a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI2/computador-interno2.fbx.thumb.bmp using Guid(b2fcef94c0ba2a940bfa1ef2a61b7a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc27fe82131c8fd1b04561c2b52a00a') in 0.015014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.971859 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI2/computador-interno4.fbx.thumb.bmp
+  artifactKey: Guid(3999681443210694bb4236181f3b31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI2/computador-interno4.fbx.thumb.bmp using Guid(3999681443210694bb4236181f3b31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8388693597cabc419bd121ba50879791') in 0.018243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.240120 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI2/geradorgigante.fbx.thumb.bmp
+  artifactKey: Guid(20f5cc1f38f5eae408e2173413414acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI2/geradorgigante.fbx.thumb.bmp using Guid(20f5cc1f38f5eae408e2173413414acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f60d0e8d60233d7b67be41493e7f9a7') in 0.011666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.613234 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI2/paineltransparente3.fbx.thumb.bmp
+  artifactKey: Guid(b8bdc64cdc72b19459a902fce1708201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI2/paineltransparente3.fbx.thumb.bmp using Guid(b8bdc64cdc72b19459a902fce1708201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c885a63c5c9bb38b1dcb0f6ba17514b5') in 0.015342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.334761 seconds.
+  path: Assets/Models/Sci-fi Pack/mapobject/SCI2/paineltransparente2.fbx.thumb.bmp
+  artifactKey: Guid(901b6acc507a8034ebbda5f304fe0c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sci-fi Pack/mapobject/SCI2/paineltransparente2.fbx.thumb.bmp using Guid(901b6acc507a8034ebbda5f304fe0c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c2be50bf419e06b070fc803d479b15') in 0.013093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
