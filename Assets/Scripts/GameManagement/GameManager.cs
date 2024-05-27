@@ -104,7 +104,7 @@ public class GameManager : MonoBehaviour
     private void LoadAnActionScene()
     {
         //load random scene from action scene list
-        SceneManager.LoadScene(actionScenes[Random.Range(0,actionScenes.Count-1)]);
+        SceneManager.LoadScene(actionScenes[Random.Range(0,actionScenes.Count)]);
     }
     #endregion
 }
