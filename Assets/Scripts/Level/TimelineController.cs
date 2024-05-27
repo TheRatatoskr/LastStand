@@ -1,8 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 
 public class TimelineController : MonoBehaviour
 {
@@ -29,7 +29,6 @@ public class TimelineController : MonoBehaviour
         stageType = stageController.GetStageType(this);
         stageTypeText.text = stageType;
         Time.timeScale = 0f;
-        
     }
 
     private void LateUpdate()
@@ -39,7 +38,23 @@ public class TimelineController : MonoBehaviour
             introLine.Play();
             isStarted = true;
         }
-        
+    }
+
+    public void GameOverMainMenuClicked()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void GameOverExitButtonClicked()
+    {
+        #if UNITY_EDITOR
+        if (EditorApplication.isPlaying)
+        {
+            EditorApplication.isPlaying = false;
+        }
+        #endif
+
+        Application.Quit();
     }
 
     #region StageManagerSignals
