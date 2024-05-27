@@ -52,4 +52,8 @@ public class ActionMovement : MonoBehaviour
         currentMovement = Vector2.zero;
     }
 
+    private void OnDestroy()
+    {
+        inputReader.MovementKeysChanged -= CalculateMovement;
+    }
 }

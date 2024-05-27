@@ -48,8 +48,12 @@ public class ActionAttack : MonoBehaviour
         }
     }
 
-
     public void PlayerIsDead()
+    {
+        inputReader.AttackButtonPressed -= KickAttack;
+    }
+
+    private void OnDestroy()
     {
         inputReader.AttackButtonPressed -= KickAttack;
     }

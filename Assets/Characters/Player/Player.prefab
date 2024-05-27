@@ -310,7 +310,7 @@ MonoBehaviour:
   - {fileID: 592217651244181079}
   - {fileID: 1843904160894768172}
   - {fileID: 505437013290962985}
-  _collider: {fileID: 0}
+  _collider: {fileID: 742624840125984221}
   audioSource: {fileID: 2928508145770304653}
   animator: {fileID: 7929559101511424549}
   actionMovement: {fileID: 1113161081603199266}

@@ -1,4 +1,0 @@
-mtl Material::estufa
-shader legacy_tex
-depthwrite false
-blend add

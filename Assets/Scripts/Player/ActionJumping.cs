@@ -119,4 +119,9 @@ public class ActionJumping : MonoBehaviour
         rb.useGravity = true;
         inputReader.JumpButtonPressed -= JumpFromGround;
     }
+
+    private void OnDestroy()
+    {
+        inputReader.JumpButtonPressed -= JumpFromGround;
+    }
 }

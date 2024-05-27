@@ -188,7 +188,8 @@ MonoBehaviour:
   m_text: 'HIGHSCORE: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 555c471afb5c7f84bb96187b6b21485b, type: 2}
-  m_sharedMaterial: {fileID: -6599018176907524097, guid: 555c471afb5c7f84bb96187b6b21485b, type: 2}
+  m_sharedMaterial: {fileID: -6599018176907524097, guid: 555c471afb5c7f84bb96187b6b21485b,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -322,7 +323,8 @@ MonoBehaviour:
   m_text: 'SCORE: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 555c471afb5c7f84bb96187b6b21485b, type: 2}
-  m_sharedMaterial: {fileID: -6599018176907524097, guid: 555c471afb5c7f84bb96187b6b21485b, type: 2}
+  m_sharedMaterial: {fileID: -6599018176907524097, guid: 555c471afb5c7f84bb96187b6b21485b,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -435,7 +437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameCanvas: {fileID: 5479685088191388538}
   actionScenes:
-  - PlayerMovementDev
-  - PlayerMovementDev
-  - PlayerMovementDev
-  startingLifeCounter: 0
+  - BasicClearoutRoom
+  - BasicEscapeRoom
+  - BasicSurviveRoom
+  startingLifeCounter: 50

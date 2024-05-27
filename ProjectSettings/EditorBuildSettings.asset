@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/UI/MainMenu.unity
+    guid: 89c9d8cab53605b41bd2b4ebf83b06b7
+  - enabled: 1
+    path: Assets/Scenes/DebugScene/BasicClearoutRoom.unity
+    guid: 6294d7e6a25a1c14cbdecbfda1bd09a2
+  - enabled: 1
+    path: Assets/Scenes/DebugScene/BasicEscapeRoom.unity
+    guid: acc5427796ad9e844909f55f60b5877a
+  - enabled: 1
+    path: Assets/Scenes/DebugScene/BasicSurviveRoom.unity
+    guid: 53efece6cc9f185478eb699754bef78c
   m_configObjects: {}

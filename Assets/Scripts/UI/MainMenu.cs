@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -17,12 +18,6 @@ public class MainMenu : MonoBehaviour
         gameManager.StartTheGame();
     }
 
-    public void SettingsClicked()
-    {
-        Debug.Log("Settings Clicked");
-        SceneManager.LoadScene("Settings");
-    }
-
     public void CreditsClicked()
     {
         Debug.Log("Credits Clicked");
@@ -31,7 +26,13 @@ public class MainMenu : MonoBehaviour
 
     public void ExitGameClicked()
     {
-        Debug.Log("Exit Clicked");
+        #if UNITY_EDITOR 
+        if(EditorApplication.isPlaying) 
+        { 
+            EditorApplication.isPlaying = false; 
+        } 
+        #endif
+
         Application.Quit();
     }
 }
