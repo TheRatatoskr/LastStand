@@ -258,7 +258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpPower: 200
-  jumpLength: 0.8
+  jumpLength: 1
   jumpSound: {fileID: 8300000, guid: a6e77a65b4e72ba4385a5db78ecfecfa, type: 3}
   upMass: 1
   downMass: 3
@@ -2367,7 +2367,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4613487668598863536}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.7071079}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2381,7 +2381,7 @@ Transform:
   - {fileID: 8533524039898995493}
   - {fileID: 3566548878105997836}
   m_Father: {fileID: 8367394323540017996}
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &2865702627826426585
 BoxCollider:
   m_ObjectHideFlags: 0
