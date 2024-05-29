@@ -15,4 +15,17 @@ public class Bullet : MonoBehaviour
     {
         transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log($"I hit a thing named {other.gameObject.name}");
+        if(other.gameObject.tag != "Player")
+        {
+            Destroy(this.gameObject);
+        }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log($"I hit a thing named from collision {collision.gameObject.name}");
+    }
 }

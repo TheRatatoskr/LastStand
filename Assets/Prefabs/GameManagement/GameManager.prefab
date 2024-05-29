@@ -440,4 +440,16 @@ MonoBehaviour:
   - BasicClearoutRoom
   - BasicEscapeRoom
   - BasicSurviveRoom
+  - ClearoutRoom2
+  - ClearoutRoom3
+  - ClearoutRoom4
+  - EscapeRoom2
+  - EscapeRoom3
+  - EscapeRoom4
+  - SurviveRoom2
+  - SurviveRoom3
+  - SurviveRoom4
   startingLifeCounter: 1
+  currentScore: 0
+  highScore: 0
+  currentLives: 5

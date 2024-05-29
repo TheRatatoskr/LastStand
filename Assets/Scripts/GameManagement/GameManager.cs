@@ -1,6 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.InteropServices.WindowsRuntime;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,12 +11,17 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private int startingLifeCounter = 50;
 
+    [SerializeField] private int numberOfCachedLevels = 5;
     [Header("DebugOnly")]
 
     [SerializeField] private int currentScore;
     [SerializeField] private int highScore;
 
     [SerializeField] private int currentLives = 5;
+
+    [SerializeField] private List<string> pickedLevels;
+
+    private List<string> availableLevels;
 
     #region Singleton
     public static GameManager instance = null;
@@ -40,6 +44,16 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
     #endregion
+
+    private void Start()
+    {
+        pickedLevels = new List<string>();
+
+        for(int i = 0; i < numberOfCachedLevels; i++)
+        {
+            pickedLevels.Add(actionScenes[Random.Range(0, actionScenes.Count)]);
+        }
+    }
 
     //only used by new game button
     public void StartTheGame()
@@ -105,8 +119,16 @@ public class GameManager : MonoBehaviour
     //internal load next scene logic
     private void LoadAnActionScene()
     {
-        //load random scene from action scene list
-        SceneManager.LoadScene(actionScenes[Random.Range(0,actionScenes.Count)]);
+
+        string nextLevel = pickedLevels[0];
+        pickedLevels.Remove(nextLevel);
+        if(pickedLevels.Count < numberOfCachedLevels)
+        {
+            availableLevels = actionScenes.Except(pickedLevels).ToList();
+            pickedLevels.Add(availableLevels[Random.Range(0, availableLevels.Count)]);
+        }
+
+        SceneManager.LoadScene(nextLevel);
     }
     #endregion
 }

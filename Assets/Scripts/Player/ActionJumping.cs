@@ -13,6 +13,7 @@ public class ActionJumping : MonoBehaviour
     [SerializeField] private float downMass;
     [SerializeField] private float jumpToAirChangeSpeed = 1f;
     [SerializeField] private float landRayCheckLength;
+    [SerializeField] private float floorCheckerLength = .4f;
 
 
 
@@ -58,7 +59,7 @@ public class ActionJumping : MonoBehaviour
 
                 }
 
-                if (distanceFromFloor > .36)
+                if (distanceFromFloor > floorCheckerLength)
                 {
                     isOnTheFloor = false;
                 animator.SetBool("hitGround", false);

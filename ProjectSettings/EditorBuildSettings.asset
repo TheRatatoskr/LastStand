@@ -17,4 +17,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DebugScene/BasicSurviveRoom.unity
     guid: 53efece6cc9f185478eb699754bef78c
+  - enabled: 1
+    path: Assets/Scenes/Levels/ClearoutRoom2.unity
+    guid: 6ea53da2b85a79840983e696fd4b064f
+  - enabled: 1
+    path: Assets/Scenes/Levels/ClearoutRoom3.unity
+    guid: 6ded07e5f44705347abae98c9191e05f
+  - enabled: 1
+    path: Assets/Scenes/Levels/ClearoutRoom4.unity
+    guid: 63c70771b3575244a82ee9d98ff30aef
+  - enabled: 1
+    path: Assets/Scenes/Levels/EscapeRoom2.unity
+    guid: d450fdf1588007343815bd413464df64
+  - enabled: 1
+    path: Assets/Scenes/Levels/EscapeRoom3.unity
+    guid: 66129b88d6f5d6f43bbc3b41bca9914f
+  - enabled: 1
+    path: Assets/Scenes/Levels/EscapeRoom4.unity
+    guid: 94f84bb8055ffb946810a3da67faa7ed
+  - enabled: 1
+    path: Assets/Scenes/Levels/SurviveRoom2.unity
+    guid: 06ff028d4becd3d48b90390ca83682e8
+  - enabled: 1
+    path: Assets/Scenes/Levels/SurviveRoom3.unity
+    guid: 2bf180285edefd84ab21050ecffeeb17
+  - enabled: 1
+    path: Assets/Scenes/Levels/SurviveRoom4.unity
+    guid: 02b40b1b5a173694f8958a6217bfe7f8
   m_configObjects: {}
