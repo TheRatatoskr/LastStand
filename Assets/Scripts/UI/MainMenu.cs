@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    private GameManager gameManager;
+    [SerializeField] private GameManager gameManager;
 
     private void Start()
     {
@@ -15,6 +15,7 @@ public class MainMenu : MonoBehaviour
 
     public void NewGameClicked()
     {
+        gameManager = FindObjectOfType<GameManager>();
         gameManager.StartTheGame();
     }
 
