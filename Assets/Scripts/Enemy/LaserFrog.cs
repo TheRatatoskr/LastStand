@@ -44,10 +44,12 @@ public class LaserFrog : BasicEnemy
 
     private IEnumerator RibbitSequencer()
     {
-        while(isAlive)
+        yield return new WaitForSeconds(Random.Range(timeBetweenRibbit - ribbitTimerAdjustment, timeBetweenRibbit + ribbitTimerAdjustment));
+
+        while (isAlive)
         {
-            yield return new WaitForSeconds(Random.Range(timeBetweenRibbit-ribbitTimerAdjustment, timeBetweenRibbit+ribbitTimerAdjustment));
             PlayRibbitNoise(ribbitClip);
+            yield return new WaitForSeconds(Random.Range(timeBetweenRibbit - ribbitTimerAdjustment, timeBetweenRibbit + ribbitTimerAdjustment));
         }
     }
 

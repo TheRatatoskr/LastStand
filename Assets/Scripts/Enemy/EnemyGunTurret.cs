@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyGunTurret : MonoBehaviour
+public class EnemyGunTurret : MonoBehaviour, ITurretControls
 {
     [Header("Objects")]
     [SerializeField] private GameObject bullet;

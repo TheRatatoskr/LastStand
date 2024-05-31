@@ -119,7 +119,7 @@ Transform:
   m_GameObject: {fileID: 1291679203085674118}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: -4.78}
+  m_LocalPosition: {x: -0.01, y: 0, z: -38.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -336,7 +336,7 @@ Transform:
   m_GameObject: {fileID: 1859893156624103417}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0.44635746}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -448,6 +448,7 @@ GameObject:
   - component: {fileID: 822774807557275990}
   - component: {fileID: 1613888495362209714}
   - component: {fileID: 8841980554813547846}
+  - component: {fileID: 875314316630901179}
   m_Layer: 0
   m_Name: LazerShark
   m_TagString: Enemy
@@ -486,7 +487,7 @@ MonoBehaviour:
   maxHealth: 1
   deathDecayTime: 3
   clearoutStage: {fileID: 0}
-  enemyCollider: {fileID: 4926258616619089852}
+  enemyCollider: {fileID: 875314316630901179}
   moveSpeed: 5
   backForceOnDeath: 300
   upForceOnDeath: 200
@@ -523,6 +524,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &875314316630901179
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3622095598284912448}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3124928, y: 2.9275537, z: 13.142931}
+  m_Center: {x: -0.14441188, y: 0.4120934, z: 0.59006613}
 --- !u!1 &3653288209011925672
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,7 +871,7 @@ Transform:
   m_GameObject: {fileID: 8753891384401198880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: 0, z: 24.32}
+  m_LocalPosition: {x: 0.01, y: 0, z: 35.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -865,7 +887,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4316700757929048793}
   - component: {fileID: 4023325478324392506}
-  - component: {fileID: 4926258616619089852}
   m_Layer: 0
   m_Name: Shark
   m_TagString: Enemy
@@ -882,7 +903,7 @@ Transform:
   m_GameObject: {fileID: 8877799631417521545}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.73, z: 8.65}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -912,27 +933,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!65 &4926258616619089852
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8877799631417521545}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.377894, y: 2.8113914, z: 14.888599}
-  m_Center: {x: 0.1784246, y: 0.49821973, z: 0.40480727}
 --- !u!1 &9012778868207594722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,7 +1051,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9149365297141222043}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.7072505, z: -0, w: 0.7069631}
+  m_LocalRotation: {x: 0, y: -0.7072487, z: 0, w: 0.7069649}
   m_LocalPosition: {x: -24.85, y: 6.45, z: 0}
   m_LocalScale: {x: 0.20000006, y: 0.2, z: 0.20000006}
   m_ConstrainProportionsScale: 0
@@ -1059,7 +1059,7 @@ Transform:
   - {fileID: 822774807557275990}
   - {fileID: 390059780740369748}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.023, z: 0}
 --- !u!1001 &6801973093917237601
 PrefabInstance:
   m_ObjectHideFlags: 0

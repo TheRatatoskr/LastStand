@@ -5,6 +5,7 @@ using UnityEngine;
 public class SurviveStage : StageManager
 {
     [SerializeField] private List<GameObject> hazards;
+    [SerializeField] private bool silenceObjects = true;
 
     public override void TimerHasRanOut()
     {
@@ -26,10 +27,13 @@ public class SurviveStage : StageManager
 
     private void SilenceTheLasers()
     {
-        foreach(GameObject hazard in hazards)
+        if(silenceObjects)
         {
-            AudioSource sound = hazard.GetComponent<AudioSource>();
-            if(sound != null) sound.Stop();
+            foreach (GameObject hazard in hazards)
+            {
+                AudioSource sound = hazard.GetComponent<AudioSource>();
+                if (sound != null) sound.Stop();
+            }
         }
     }
 }

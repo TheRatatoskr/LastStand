@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem.LowLevel;
 
-public class EnemyTurret : MonoBehaviour
+public class EnemyTurret : MonoBehaviour, ITurretControls
 {
     [Header("Laser Settings")]
     [SerializeField] private GameObject laserBox;
