@@ -2136,7 +2136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageType: SURVIVE!
   finishStageTimeScale: 0.5
-  stageTimeLimit: 30
+  stageTimeLimit: 15
   player: {fileID: 1925756489}
   dramaticZoomCam: {fileID: 1354407245}
   gameManagerPrefab: {fileID: 8227600261731032445, guid: f57171f26e741ba40ac5822a61f270c2,
@@ -2144,9 +2144,7 @@ MonoBehaviour:
   createdGameManager: {fileID: 0}
   gameManager: {fileID: 0}
   hazards:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2052990466}
   silenceObjects: 1
 --- !u!1 &1925756489 stripped
 GameObject:
