@@ -23,6 +23,12 @@ public class GameManager : MonoBehaviour
 
     private List<string> availableLevels;
 
+    [SerializeField] private AudioClip titleScreenMusic;
+    [SerializeField] private AudioClip gameMusic;
+    [SerializeField] private AudioClip gOverMusic;
+
+    private AudioSource audioSource;
+
     #region Singleton
     public static GameManager instance = null;
     void Awake()
@@ -53,6 +59,10 @@ public class GameManager : MonoBehaviour
         {
             pickedLevels.Add(actionScenes[Random.Range(0, actionScenes.Count)]);
         }
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = titleScreenMusic;
+        audioSource.Play();
+
     }
 
     //only used by new game button
@@ -63,6 +73,10 @@ public class GameManager : MonoBehaviour
         UpdateScore(0);
         //play sound maybe?
         LoadAnActionScene();
+        audioSource.Stop();
+        audioSource.clip = gameMusic;
+        audioSource.Play();
+
     }
 
     //used by stage managers to report back stage successes
@@ -90,7 +104,11 @@ public class GameManager : MonoBehaviour
         currentLives--;
         if(currentLives <= 0)
         {
+            audioSource.Stop();
+            audioSource.clip = gOverMusic;
+            audioSource.Play();
             return true;
+
         }
         return false;
     }
