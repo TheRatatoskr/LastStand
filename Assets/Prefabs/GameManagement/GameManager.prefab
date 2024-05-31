@@ -449,7 +449,16 @@ MonoBehaviour:
   - SurviveRoom2
   - SurviveRoom3
   - SurviveRoom4
-  startingLifeCounter: 1
+  - ClearoutRoom5
+  - ClearoutRoom6
+  - ClearoutRoom7
+  - SurviveRoom5
+  - SurviveRoom6
+  - SurviveRoom7
+  - SurviveRoom8
+  startingLifeCounter: 5
+  numberOfCachedLevels: 5
   currentScore: 0
   highScore: 0
   currentLives: 5
+  pickedLevels: []

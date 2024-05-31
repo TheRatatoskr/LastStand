@@ -2427,7 +2427,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageType: SURVIVE!
   finishStageTimeScale: 0.5
-  stageTimeLimit: 0
+  stageTimeLimit: 40
   player: {fileID: 1925756489}
   dramaticZoomCam: {fileID: 1354407245}
   gameManagerPrefab: {fileID: 8227600261731032445, guid: f57171f26e741ba40ac5822a61f270c2,
