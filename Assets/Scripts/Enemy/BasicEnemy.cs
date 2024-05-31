@@ -8,7 +8,7 @@ public class BasicEnemy : MonoBehaviour, IEnemyController
     [SerializeField] private float maxHealth = 1f;
     [SerializeField] private float deathDecayTime = 3f;
 
-    [SerializeField] private ClearoutStage ClearoutStage;
+    [SerializeField] private ClearoutStage clearoutStage;
     [SerializeField] private Collider enemyCollider;
 
     private float currentHealth;
@@ -35,7 +35,7 @@ public class BasicEnemy : MonoBehaviour, IEnemyController
     public virtual void EnemyDeath()
     {
         gameObject.tag = "Dead";
-        ClearoutStage.EnemyReportingDefeat(this.gameObject);
+        if(clearoutStage != null) clearoutStage.EnemyReportingDefeat(this.gameObject);
         //enemyCollider.enabled = false;
         Destroy(this.gameObject, deathDecayTime);
     }

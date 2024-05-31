@@ -21,6 +21,7 @@ public class BasicHumanoidEnemy : BasicEnemy
     [Header("Components")]
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private Animator anim;
+    [SerializeField] private AudioSource audioSource;
 
     [Header("Debug Only")]
     [SerializeField] private bool isWalkingLeft = true;
@@ -71,7 +72,9 @@ public class BasicHumanoidEnemy : BasicEnemy
         isAlive = false;
         moveSpeed = 0;
         anim.enabled = false;
-        foreach(Collider collider in ragdollColliders)
+        audioSource.pitch = Random.Range(.8f, 1.2f);
+        audioSource.Play();
+        foreach (Collider collider in ragdollColliders)
         {
             collider.enabled = true;
         }
