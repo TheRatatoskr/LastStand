@@ -3883,21 +3883,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3394751611548231539, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
-        type: 3}
-      propertyPath: deathSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 32e2e5778f2eb8946abdca69161bc7ce, type: 3}
-    - target: {fileID: 7553501252840576999, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
-        type: 3}
-      propertyPath: upMass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7553501252840576999, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
-        type: 3}
-      propertyPath: downMass
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 8367394323540017996, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
         type: 3}
       propertyPath: m_LocalPosition.x
