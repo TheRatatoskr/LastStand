@@ -25,6 +25,7 @@ public class ActionAttack : MonoBehaviour
 
     private void Start()
     {
+        sinceLastAttack = 40f;
         inputReader.AttackButtonPressed += KickAttack;
     }
 
