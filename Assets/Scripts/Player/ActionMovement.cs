@@ -66,18 +66,21 @@ public class ActionMovement : MonoBehaviour
         {
             if(hitInfo.distance <= stopIfWallIsThisClose)
             {
-                Debug.Log("I hit the wall");
-                footHitWall = true;
+                if (hitInfo.collider.isTrigger == true)
+                {
+                    Debug.Log($"I hit this: {hitInfo.collider.gameObject.name}");
+                    footHitWall = true;
+                }
+
+
             }
             else
             {
-                Debug.Log("No walls here!");
                 footHitWall = false;
             }
         }
         else
         {
-            Debug.Log("nothing found");
             footHitWall = false;
         }
 
@@ -93,19 +96,21 @@ public class ActionMovement : MonoBehaviour
         {
             if (hitInfo.distance <= stopIfWallIsThisClose)
             {
-                Debug.Log("I hit the wall");
-                bodyHitWall = true;
+                if (hitInfo.collider.isTrigger == true)
+                {
+                    Debug.Log($"I hit this: {hitInfo.collider.gameObject.name}");
+                    bodyHitWall = true;
+                }
+
             }
             else
             {
-                Debug.Log("No walls here!");
                 bodyHitWall= false;
             }
 
         }
         else
         {
-            Debug.Log("nothing found");
             bodyHitWall = false;
         }
 
@@ -121,19 +126,21 @@ public class ActionMovement : MonoBehaviour
         {
             if (hitInfo.distance <= stopIfWallIsThisClose)
             {
-                Debug.Log("I hit the wall");
-                headHitWall = true;
+                if(hitInfo.collider.isTrigger == true)
+                {
+                    Debug.Log($"I hit this: {hitInfo.collider.gameObject.name}");
+                    headHitWall = true;
+                }
+
             }
             else
             {
-                Debug.Log("No walls here!");
                 headHitWall= false;
             }
 
         }
         else
         {
-            Debug.Log("nothing found");
             headHitWall = false;
         }
 
