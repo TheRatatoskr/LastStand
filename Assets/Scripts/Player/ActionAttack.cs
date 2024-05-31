@@ -39,6 +39,8 @@ public class ActionAttack : MonoBehaviour
     }
     private void KickAttack(bool buttonIsPressed)
     {
+        if (Time.timeScale <= .9f) return;
+
         if(sinceLastAttack > attackDelay && buttonIsPressed) 
         {
             sinceLastAttack = 0f;

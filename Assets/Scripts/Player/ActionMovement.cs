@@ -22,6 +22,7 @@ public class ActionMovement : MonoBehaviour
     }
     private void Update()
     {
+        if(Time.timeScale <= .9f) return; 
         transform.Translate(currentMovement.x * moveSpeed * Time.deltaTime, 0, 0);
         animator.SetFloat("forwardSpeed", Math.Abs(currentMovement.x));
 

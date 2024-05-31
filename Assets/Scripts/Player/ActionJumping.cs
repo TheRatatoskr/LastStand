@@ -80,7 +80,7 @@ public class ActionJumping : MonoBehaviour
 
     private void JumpFromGround(bool buttonState)
     {
-        if (isAlive)
+        if (isAlive && Time.timeScale >= .9f)
         {
             if (isOnTheFloor && buttonState)
             {
