@@ -179,6 +179,17 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""627c2590-9614-4def-9a52-169e773e4cf0"",
+                    ""path"": ""<XInputController>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""XBox"",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""ee573fa4-737a-413f-a81f-1ef3f19ea8f2"",
                     ""path"": ""<DualShockGamepad>/buttonSouth"",
                     ""interactions"": """",
@@ -191,7 +202,29 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""3b629c28-b573-498f-a2b1-8f4f946d24d0"",
-                    ""path"": ""<Keyboard>/q"",
+                    ""path"": ""<Keyboard>/x"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f0d9f373-0f47-47cc-b7da-3b1aa597d66b"",
+                    ""path"": ""<XInputController>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""XBox"",
+                    ""action"": ""Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""587fc8c5-b86a-4769-94bb-bdbb8ba9a9af"",
+                    ""path"": ""<Keyboard>/e"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
@@ -213,10 +246,21 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""8fbd7229-1ecb-449b-8ed7-2dd3fb7a3703"",
-                    ""path"": ""<Keyboard>/e"",
+                    ""path"": ""<Keyboard>/z"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""989d1469-9202-4a33-bc9c-e18718d9a91e"",
+                    ""path"": ""<XInputController>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
                     ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -246,6 +290,11 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""isOR"": false
                 }
             ]
+        },
+        {
+            ""name"": ""XBox"",
+            ""bindingGroup"": ""XBox"",
+            ""devices"": []
         }
     ]
 }");
@@ -389,6 +438,15 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         {
             if (m_KeyboardSchemeIndex == -1) m_KeyboardSchemeIndex = asset.FindControlSchemeIndex("Keyboard");
             return asset.controlSchemes[m_KeyboardSchemeIndex];
+        }
+    }
+    private int m_XBoxSchemeIndex = -1;
+    public InputControlScheme XBoxScheme
+    {
+        get
+        {
+            if (m_XBoxSchemeIndex == -1) m_XBoxSchemeIndex = asset.FindControlSchemeIndex("XBox");
+            return asset.controlSchemes[m_XBoxSchemeIndex];
         }
     }
     public interface IActionSceneControlsActions
