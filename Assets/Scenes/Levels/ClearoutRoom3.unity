@@ -864,11 +864,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GunTurret
       objectReference: {fileID: 0}
-    - target: {fileID: 9097439595713058126, guid: 0b02ccc00788ea841aca2191a6a25ae6,
-        type: 3}
-      propertyPath: waitTimeBetweenShots
-      value: 1.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

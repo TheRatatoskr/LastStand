@@ -632,21 +632,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1495680809384664887, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058823763265924517, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: Loop
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058823763265924517, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4296742309797952473, guid: b666ddc8605f3e446bfe64df3a205070,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -697,35 +682,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5799644489803742760, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5799644489803742760, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5904673373087824090, guid: b666ddc8605f3e446bfe64df3a205070,
         type: 3}
       propertyPath: m_Name
       value: LaserTurret (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6057463614827219090, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6057463614827219090, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6057463614827219090, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2626,21 +2586,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1495680809384664887, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058823763265924517, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: Loop
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058823763265924517, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4296742309797952473, guid: b666ddc8605f3e446bfe64df3a205070,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2691,35 +2636,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5799644489803742760, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5799644489803742760, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5904673373087824090, guid: b666ddc8605f3e446bfe64df3a205070,
         type: 3}
       propertyPath: m_Name
       value: LaserTurret
-      objectReference: {fileID: 0}
-    - target: {fileID: 6057463614827219090, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6057463614827219090, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6057463614827219090, guid: b666ddc8605f3e446bfe64df3a205070,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

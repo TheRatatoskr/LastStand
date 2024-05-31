@@ -27967,7 +27967,7 @@ MonoBehaviour:
   topBarrel: {fileID: 1791715263485995790}
   bottomBarrel: {fileID: 7983946132017862388}
   bangNoise: {fileID: 8300000, guid: 3ea3ef664595ca14780e8b2f545059d4, type: 3}
-  waitTimeBetweenShots: 1.2
+  waitTimeBetweenShots: 1.5
   audioSource: {fileID: 1979204974572766497}
 --- !u!82 &1979204974572766497
 AudioSource:
