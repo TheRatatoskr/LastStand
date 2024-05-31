@@ -1825,6 +1825,11 @@ PrefabInstance:
       propertyPath: ClearoutStage
       value: 
       objectReference: {fileID: 1845183279}
+    - target: {fileID: 8481881124785286634, guid: 618f97cf84db834419160c0787d1bcd5,
+        type: 3}
+      propertyPath: clearoutStage
+      value: 
+      objectReference: {fileID: 1845183279}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

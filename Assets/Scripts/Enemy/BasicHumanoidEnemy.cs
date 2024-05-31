@@ -28,6 +28,7 @@ public class BasicHumanoidEnemy : BasicEnemy
 
     private bool isAlive = true;
 
+    
     private void Update()
     {
         if(isAlive)
