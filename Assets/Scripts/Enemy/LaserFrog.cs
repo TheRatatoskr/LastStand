@@ -38,8 +38,12 @@ public class LaserFrog : BasicEnemy
 
     private IEnumerator JumpSequencer()
     {
-        yield return new WaitForSeconds(Random.Range(jumpWaitTime - jumpTimerAdjustment, jumpWaitTime + jumpTimerAdjustment));
-        DoTheRibbitJump();
+        while (isAlive)
+        {
+            yield return new WaitForSeconds(Random.Range(jumpWaitTime - jumpTimerAdjustment, jumpWaitTime + jumpTimerAdjustment));
+            DoTheRibbitJump();
+        }
+
     }
 
 
