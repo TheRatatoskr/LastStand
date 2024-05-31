@@ -700,41 +700,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2192093070774646108, guid: 6374d7a4f0e5c90439a2ee890ae58b83,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.00022301325
-      objectReference: {fileID: 0}
-    - target: {fileID: 2192093070774646108, guid: 6374d7a4f0e5c90439a2ee890ae58b83,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.00065700366
-      objectReference: {fileID: 0}
-    - target: {fileID: 2192093070774646108, guid: 6374d7a4f0e5c90439a2ee890ae58b83,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0000527
-      objectReference: {fileID: 0}
-    - target: {fileID: 2192093070774646108, guid: 6374d7a4f0e5c90439a2ee890ae58b83,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.00000033
-      objectReference: {fileID: 0}
-    - target: {fileID: 8146007337478861945, guid: 6374d7a4f0e5c90439a2ee890ae58b83,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.00006208508
-      objectReference: {fileID: 0}
-    - target: {fileID: 8146007337478861945, guid: 6374d7a4f0e5c90439a2ee890ae58b83,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.00005543
-      objectReference: {fileID: 0}
-    - target: {fileID: 8146007337478861945, guid: 6374d7a4f0e5c90439a2ee890ae58b83,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.00000041
-      objectReference: {fileID: 0}
     - target: {fileID: 8565505928050388923, guid: 6374d7a4f0e5c90439a2ee890ae58b83,
         type: 3}
       propertyPath: m_Name
@@ -2297,21 +2262,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3394751611548231539, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
-        type: 3}
-      propertyPath: deathSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 32e2e5778f2eb8946abdca69161bc7ce, type: 3}
-    - target: {fileID: 7553501252840576999, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
-        type: 3}
-      propertyPath: upMass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7553501252840576999, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
-        type: 3}
-      propertyPath: downMass
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8367394323540017996, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
         type: 3}

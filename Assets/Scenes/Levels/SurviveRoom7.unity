@@ -2143,9 +2143,8 @@ MonoBehaviour:
     type: 3}
   createdGameManager: {fileID: 0}
   gameManager: {fileID: 0}
-  hazards:
-  - {fileID: 2052990466}
-  silenceObjects: 1
+  hazards: []
+  silenceObjects: 0
 --- !u!1 &1925756489 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 39419510055170874, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
