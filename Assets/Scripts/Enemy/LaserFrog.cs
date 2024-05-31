@@ -28,6 +28,7 @@ public class LaserFrog : BasicEnemy
 
     private bool isAlive = true;
 
+    [SerializeField] private bool isJumpingLeft = false;
 
     private void Start()
     {
@@ -63,7 +64,7 @@ public class LaserFrog : BasicEnemy
 
     private void DoTheRibbitJump()
     {
-        if(Random.Range(0,2) == 0)
+        if(isJumpingLeft)
         {
             transform.eulerAngles = new Vector3(0, 270f, 0);
             rb.AddForce(Vector3.up * upForce + Vector3.left * forwardForce);
@@ -75,6 +76,8 @@ public class LaserFrog : BasicEnemy
         }
 
         anim.SetTrigger("jump");
+
+        if (Random.Range(0, 2) == 0) isJumpingLeft = !isJumpingLeft;
 
     }
 
