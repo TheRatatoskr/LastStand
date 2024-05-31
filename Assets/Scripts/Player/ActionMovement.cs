@@ -66,7 +66,7 @@ public class ActionMovement : MonoBehaviour
         {
             if(hitInfo.distance <= stopIfWallIsThisClose)
             {
-                if (hitInfo.collider.isTrigger == true)
+                if (hitInfo.collider.isTrigger == false)
                 {
                     Debug.Log($"I hit this: {hitInfo.collider.gameObject.name}");
                     footHitWall = true;
@@ -96,7 +96,7 @@ public class ActionMovement : MonoBehaviour
         {
             if (hitInfo.distance <= stopIfWallIsThisClose)
             {
-                if (hitInfo.collider.isTrigger == true)
+                if (hitInfo.collider.isTrigger == false)
                 {
                     Debug.Log($"I hit this: {hitInfo.collider.gameObject.name}");
                     bodyHitWall = true;
@@ -126,7 +126,7 @@ public class ActionMovement : MonoBehaviour
         {
             if (hitInfo.distance <= stopIfWallIsThisClose)
             {
-                if(hitInfo.collider.isTrigger == true)
+                if(hitInfo.collider.isTrigger == false)
                 {
                     Debug.Log($"I hit this: {hitInfo.collider.gameObject.name}");
                     headHitWall = true;
