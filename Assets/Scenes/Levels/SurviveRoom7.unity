@@ -1071,7 +1071,7 @@ Transform:
   m_GameObject: {fileID: 1102252566}
   serializedVersion: 2
   m_LocalRotation: {x: 0.060272064, y: 0.0044876114, z: -0.00026130065, w: 0.9981719}
-  m_LocalPosition: {x: -10.409273, y: 2.8622608, z: -9.926943}
+  m_LocalPosition: {x: -10.409272, y: 2.352261, z: -9.926943}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1846,7 +1846,7 @@ Transform:
   m_GameObject: {fileID: 1660713357}
   serializedVersion: 2
   m_LocalRotation: {x: 0.060272064, y: 0.0044876114, z: -0.00026130065, w: 0.9981719}
-  m_LocalPosition: {x: -10.409273, y: 2.8622608, z: -9.926943}
+  m_LocalPosition: {x: -10.409272, y: 2.352261, z: -9.926943}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2776,7 +2776,7 @@ PrefabInstance:
     - target: {fileID: 1943588316228828816, guid: 612becb672a51bb44a47d716cea9c0f4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.5425105
+      value: 4.0325103
       objectReference: {fileID: 0}
     - target: {fileID: 1943588316228828816, guid: 612becb672a51bb44a47d716cea9c0f4,
         type: 3}
@@ -2846,16 +2846,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 7553501252840576999, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
-        type: 3}
-      propertyPath: upMass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7553501252840576999, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
-        type: 3}
-      propertyPath: downMass
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 8367394323540017996, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2864,7 +2854,7 @@ PrefabInstance:
     - target: {fileID: 8367394323540017996, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.519
+      value: 0.009
       objectReference: {fileID: 0}
     - target: {fileID: 8367394323540017996, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
         type: 3}
