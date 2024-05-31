@@ -1154,6 +1154,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PacingEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 7082840759875236096, guid: 618f97cf84db834419160c0787d1bcd5,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 37ce504f67334044b9f4b1a0dd1e4a68, type: 3}
+    - target: {fileID: 7082840759875236096, guid: 618f97cf84db834419160c0787d1bcd5,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8437646142075084986, guid: 618f97cf84db834419160c0787d1bcd5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1206,6 +1216,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8481881124785286634, guid: 618f97cf84db834419160c0787d1bcd5,
         type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1304129024}
+    - target: {fileID: 8481881124785286634, guid: 618f97cf84db834419160c0787d1bcd5,
+        type: 3}
       propertyPath: ClearoutStage
       value: 
       objectReference: {fileID: 1845183279}
@@ -1214,6 +1229,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 618f97cf84db834419160c0787d1bcd5, type: 3}
+--- !u!82 &1304129024 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7082840759875236096, guid: 618f97cf84db834419160c0787d1bcd5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1304129023}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1354407245 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2828424140690029246, guid: 612becb672a51bb44a47d716cea9c0f4,

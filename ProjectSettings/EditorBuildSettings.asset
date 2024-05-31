@@ -30,6 +30,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/EscapeRoom2.unity
     guid: d450fdf1588007343815bd413464df64
   - enabled: 1
+    path: Assets/Scenes/Levels/ClearoutRoom5.unity
+    guid: fa8dfd46ff8c68549901dcf4667044c9
+  - enabled: 1
+    path: Assets/Scenes/Levels/ClearoutRoom6.unity
+    guid: 059a6dacaae824440931f5d28c8a01e6
+  - enabled: 1
+    path: Assets/Scenes/Levels/ClearoutRoom7.unity
+    guid: db612cc2634848f4f84ad2e40d5de8a3
+  - enabled: 1
+    path: Assets/Scenes/Levels/SurviveRoom5.unity
+    guid: 3d68509907969334c860ddf99909faa2
+  - enabled: 1
+    path: Assets/Scenes/Levels/SurviveRoom6.unity
+    guid: 3de6f49094250814cbde696c7bfbdd9f
+  - enabled: 1
+    path: Assets/Scenes/Levels/SurviveRoom7.unity
+    guid: 7902cc6e5da78fe42b854ea0b7ef442b
+  - enabled: 1
+    path: Assets/Scenes/Levels/SurviveRoom8.unity
+    guid: 31c7203073e7c8649a12909a9b65ac9d
+  - enabled: 1
     path: Assets/Scenes/Levels/EscapeRoom3.unity
     guid: 66129b88d6f5d6f43bbc3b41bca9914f
   - enabled: 1

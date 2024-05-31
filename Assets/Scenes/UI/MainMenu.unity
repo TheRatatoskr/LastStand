@@ -2373,7 +2373,7 @@ PrefabInstance:
     - target: {fileID: 584863423068845604, guid: f57171f26e741ba40ac5822a61f270c2,
         type: 3}
       propertyPath: startingLifeCounter
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8227600261731032445, guid: f57171f26e741ba40ac5822a61f270c2,
         type: 3}
