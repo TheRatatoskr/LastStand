@@ -461,7 +461,7 @@ MonoBehaviour:
   numberOfCachedLevels: 5
   currentScore: 0
   highScore: 0
-  currentLives: 50
+  currentLives: 1
   pickedLevels: []
   titleScreenMusic: {fileID: 8300000, guid: b285c1b6f2a81a74a832d915a4eabaf1, type: 3}
   gameMusic: {fileID: 8300000, guid: c77aec88873741146af2386b6a7458fc, type: 3}
