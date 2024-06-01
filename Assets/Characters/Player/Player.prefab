@@ -263,13 +263,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpPower: 200
-  jumpLength: 1
+  jumpLength: 0.6
+  jumpSpeed: 10
   jumpSound: {fileID: 8300000, guid: a6e77a65b4e72ba4385a5db78ecfecfa, type: 3}
   upMass: 1
   downMass: 3
   jumpToAirChangeSpeed: 0.4
   landRayCheckLength: 2
-  floorCheckerLength: 0.4
+  floorCheckerLength: 0.6
   inputReader: {fileID: 11400000, guid: a7d8292bcd0801046a789c48f5f67b0d, type: 2}
   animator: {fileID: 7929559101511424549}
   audioSource: {fileID: 2928508145770304653}
@@ -277,8 +278,8 @@ MonoBehaviour:
   onFloorCollider: {fileID: 742624840125984221}
   inAirCollider: {fileID: 3526910449420696335}
   landRaySource: {fileID: 3566548878105997836}
-  isOnTheFloor: 0
-  distanceFromFloor: 0
+  isOnTheFloor: 1
+  distanceFromFloor: 0.35199142
 --- !u!114 &3394751611548231539
 MonoBehaviour:
   m_ObjectHideFlags: 0

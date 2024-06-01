@@ -2485,6 +2485,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7553501252840576999, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
+        type: 3}
+      propertyPath: distanceFromFloor
+      value: 0.3519914
+      objectReference: {fileID: 0}
     - target: {fileID: 8367394323540017996, guid: 0d1ce8d80ca1c424cb18af737cd2d331,
         type: 3}
       propertyPath: m_LocalPosition.x

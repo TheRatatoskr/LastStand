@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -8,6 +9,10 @@ public class ActionJumping : MonoBehaviour
     [Header("Jump Settings")]
     [SerializeField] private float jumpPower;
     [SerializeField] private float jumpLength;
+
+    [SerializeField] private float jumpSpeed;
+    private float activeJumpSpeed = 0;
+
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private float upMass;
     [SerializeField] private float downMass;
@@ -46,35 +51,36 @@ public class ActionJumping : MonoBehaviour
 
     private void Update()
     {
+        Ray ray = new Ray(landRaySource.position, Vector3.down);
 
-            Ray ray = new Ray(landRaySource.position, Vector3.down);
-
-            if (Physics.Raycast(ray, out RaycastHit hitInfo, landRayCheckLength))
+        if (Physics.Raycast(ray, out RaycastHit hitInfo, landRayCheckLength))
+        {
+            Debug.DrawRay(ray.origin, ray.direction * hitInfo.distance, Color.magenta);
+            if (hitInfo.collider.gameObject.tag == "Floor")
             {
-                Debug.DrawRay(ray.origin, ray.direction * hitInfo.distance, Color.magenta);
-                if (hitInfo.collider.gameObject.tag == "Floor")
-                {
-                    distanceFromFloor = hitInfo.distance;
-                    LandingColliderChanger();
-
-                }
-
-                if (distanceFromFloor > floorCheckerLength)
-                {
-                    isOnTheFloor = false;
+                distanceFromFloor = hitInfo.distance;
+                LandingColliderChanger();
+            }
+            
+            if (distanceFromFloor > floorCheckerLength)
+            {
+                isOnTheFloor = false;
+                animator.SetBool("inAir", true);
                 animator.SetBool("hitGround", false);
-
-            }
-                else
-                {
-                    isOnTheFloor = true;
-                animator.SetBool("hitGround", true);
-            }
             }
             else
             {
-                Debug.DrawRay(ray.origin, ray.direction * landRayCheckLength, Color.magenta);
+                isOnTheFloor = true;
+                animator.SetBool("inAir", false);
+                animator.SetBool("hitGround", true);
             }
+        }
+        else
+        {
+            Debug.DrawRay(ray.origin, ray.direction * landRayCheckLength, Color.magenta);
+        }
+
+        transform.Translate(Vector3.up * activeJumpSpeed * Time.deltaTime);
 
     }
 
@@ -84,29 +90,36 @@ public class ActionJumping : MonoBehaviour
         {
             if (isOnTheFloor && buttonState)
             {
+                activeJumpSpeed = jumpSpeed;
                 rb.useGravity = false;
-                rb.AddForce(Vector2.up * jumpPower);
-                animator.SetTrigger("jump");
-                StartCoroutine(JumpingColliderChange());
+                StartCoroutine(JumpWaitForSecondsToFall());
+                animator.SetBool("inAir", true);
+                JumpingColliderChange();
                 animator.SetBool("hitGround", false);
                 audioSource.clip = jumpSound;
                 audioSource.Play();
             }
             else if (!isOnTheFloor && !buttonState)
             {
+                activeJumpSpeed = 0;
                 rb.useGravity = true;
             }
         }
     }
 
-    IEnumerator JumpingColliderChange()
+    private IEnumerator JumpWaitForSecondsToFall()
     {
-        yield return new WaitForSeconds(jumpToAirChangeSpeed);
+        yield return new WaitForSeconds(jumpLength);
+        rb.useGravity = true;
+        activeJumpSpeed = 0;
+    }
+    private void JumpingColliderChange()
+    {
         onFloorCollider.enabled = false;
         inAirCollider.enabled = true;
         isAirborne = true;
-        yield return new WaitForSeconds(jumpLength - jumpToAirChangeSpeed);
-        rb.useGravity = true;
+        //yield return new WaitForSeconds(jumpLength - jumpToAirChangeSpeed);
+        //rb.useGravity = true;
     }
 
     private void LandingColliderChanger()
@@ -118,6 +131,7 @@ public class ActionJumping : MonoBehaviour
     public void PlayerIsDead()
     {
         rb.useGravity = true;
+        activeJumpSpeed = 0;
         inputReader.JumpButtonPressed -= JumpFromGround;
     }
 

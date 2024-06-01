@@ -10,6 +10,11 @@ public class MainMenu : MonoBehaviour
 
     private void Start()
     {
+        if (Time.timeScale < 1f)
+        {
+            Time.timeScale = 1f;
+        }
+
         gameManager = FindObjectOfType<GameManager>();
     }
 
